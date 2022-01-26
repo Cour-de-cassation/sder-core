@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "main": "dist/index.js",
+  "name": "sder",
+  "private": true,
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}
