@@ -2,7 +2,7 @@ import { sign as jsonwebtokenSign, verify } from 'jsonwebtoken';
 
 export { buildJwtSigner };
 
-const ONE_WEEK = 7 * 24 * 60 * 60 * 1000;
+const ONE_WEEK = 7 * 24 * 60 * 60;
 
 function buildJwtSigner<idT>(privateKey: string) {
   return {
