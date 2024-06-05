@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildJwtSigner = void 0;
 var jsonwebtoken_1 = require("jsonwebtoken");
-var ONE_WEEK = 7 * 24 * 60 * 60 * 1000;
+var ONE_WEEK = 7 * 24 * 60 * 60;
 function buildJwtSigner(privateKey) {
     return {
         sign: sign,
